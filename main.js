@@ -16,7 +16,9 @@ var model_name_mapping = {
     'clip_r50_4Lay': 'CLIP',
     'mvit_4Lay': 'MViT',
     'resnet50_4Lay': 'ResNet50',
-    'vgg16_4Lay': 'VGG16'
+    'vgg16_4Lay': 'VGG16',
+    'tf_mobilenetv3_large_075_4Lay': 'MobileNetv3',
+    'vit_b_4Lay': 'ViT_b'
 };
 
 async function loadJSON(json_path) {
