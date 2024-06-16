@@ -10,10 +10,15 @@
             font-size: 32px;
             font-weight: bold;
             margin-top: 10px;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
         #authors {
             text-align: center;
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+        #description {
+            text-align: left;
             font-size: 16px;
             margin-bottom: 5px;
         }
@@ -39,6 +44,11 @@
         <a href="https://lassonde.yorku.ca/users/wildes">Richard P. Wildes</a>,
         <a href="https://csprofkgd.github.io/">Konstantinos G. Derpanis</a>,
         (Special thanks to <a href="https://www.eecs.yorku.ca/~jjyu/">Jason J. Yu</a> for help on this demo) - Works best on large screens.</div>
+    <div id="description">Visual concept connectomes discovery concepts and their interlayer connections in deep vision models.
+        Each column represents a different layer in a pretrained ImageNet model and each image <br> is a
+        discovered concept in that layer (shown as 3x3 exemplars) where connected edges are concept contributions
+        (darker lines denote stronger contributions).
+        information </div>
     <div id='diagram_container' style='display:inline-block;border:solid;'>
         <div id='diagram' style='display:inline-block;border:solid;'></div>
     </div>
